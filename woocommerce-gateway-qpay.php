@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce Gateway Qpay
  * Plugin URI: https://github.com/ianmbuguah/woocommerce-gateway-qpay
  * Description: Receive payments using Qatar Debit card.
- * Author: WooCommerce
+ * Author: Ian mbuguah
  * Author URI: Ian mbuguah
  * Version: 1.0.0
  * Requires at least: 6.2

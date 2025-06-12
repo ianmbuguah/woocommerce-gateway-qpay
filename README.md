@@ -10,7 +10,7 @@ A secure and flexible WooCommerce payment gateway plugin integrating QPay (EZ-Co
 
 ## 📚 Reference
 
-- [QPay EZ-Connect Integration Guide v1.4](docs/QPay-EZ-Connect-v1.4.pdf)  
+- [QPay EZ-Connect Integration Guide v1.4](docs/QPay%20EZ-Connect%20v.1.4.pdf)
 - [WooCommerce Developer Documentation](https://woocommerce.com/documentation/plugins/)
 
 ## 💬 Support

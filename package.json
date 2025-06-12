@@ -1,0 +1,45 @@
+{
+  "name": "woocommerce-gateway-qpay",
+  "version": "1.0.0",
+  "description": "Receive payments using Qatar Debit card.",
+  "license": "GPL-3.0-or-later",
+  "main": "index.js",
+  "scripts": {
+    "build:webpack": "wp-scripts build",
+    "start:webpack": "wp-scripts start",
+    "lint": "wp-scripts lint",
+    "format": "wp-scripts format",
+    "lint:js": "wp-scripts lint-js",
+    "lint:css": "wp-scripts lint-style",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "check-engines": "wp-scripts check-engines",
+    "check-licences": "wp-scripts check-licenses",
+    "packages-update": "wp-scripts packages-update",
+    "zip": "rm -f ../woocommerce-gateway-qpay.zip && cd .. && zip -r woocommerce-gateway-qpay.zip woocommerce-gateway-qpay -x '*.git*' '*/node_modules/*'",
+    "build:zip": "npm run build:webpack && rm -f ../woocommerce-gateway-qpay.zip && cd .. && zip -r woocommerce-gateway-qpay.zip woocommerce-gateway-qpay -x '*/.*' '*/node_modules/*' '*/src/*' '*/vendor/*' '*/tests/*' '*.json' '*.lock' '*.md' '*.xml' '*.yml' '*.git*' '*.DS_Store' '*/webpack.config.js'"
+  },
+  "dependencies": {
+    "@wordpress/element": "^6.0.0"
+  },
+  "devDependencies": {
+    "@woocommerce/dependency-extraction-webpack-plugin": "^3.0.1",
+    "@woocommerce/eslint-plugin": "^2.2.0",
+    "@wordpress/env": "^9.10.0",
+    "@wordpress/scripts": "^30.18.0",
+    "node-wp-i18n": "^1.2.7",
+    "prettier": "^3.2.5",
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  },
+  "keywords": [
+    "woocommerce",
+    "payment-gateway",
+    "qpay",
+    "qatar-debit-card"
+  ]
+}

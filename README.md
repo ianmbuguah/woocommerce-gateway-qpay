@@ -18,8 +18,13 @@ A secure and flexible WooCommerce payment gateway plugin integrating QPay (EZ-Co
 For merchant onboarding or secret key issues, contact your acquiring bank or QPay admin portal.
 
 use this for development purposes (npm run zip)
+
+
 "zip": "rm -f ../woocommerce-gateway-qpay.zip && cd .. && zip -r woocommerce-gateway-qpay.zip woocommerce-gateway-qpay -x '*.git*' '*/node_modules/*'"
+
 use this for production purposes (npm run build:zip)
+
+
 "build:zip": "npm run build:webpack && rm -f ../woocommerce-gateway-qpay.zip && cd .. && zip -r woocommerce-gateway-qpay.zip woocommerce-gateway-qpay -x '*/.*' '*/node_modules/*' '*/src/*' '*/vendor/*' '*/tests/*' '*.json' '*.lock' '*.md' '*.xml' '*.yml' '*.git*' '*.DS_Store' '*/webpack.config.js'"
 
 
